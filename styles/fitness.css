@@ -3,3 +3,47 @@
     margin: 0;
     box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@font-face {
+    font-family: "miama",sans-serif;
+    src: url(../styles/Miama.otf);
+}
+
+/* Shared Styles */
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+  .miama-font {
+    font-family: "miama", sans-serif; 
+}
+.text-white{
+    color: #ffffff;
+}
+.text-center{
+    text-align: center;
+}
+.primary-info{
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    word-spacing: 0.3px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.section-title{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #ffffff;
+}
+.primary-btn{
+    padding: 16px 40px;
+    border-radius: 42px;
+    background-color: #e6533c;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #ffffff;
+    border:none;
+}
