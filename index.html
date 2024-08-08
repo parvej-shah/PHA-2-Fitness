@@ -5,18 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness</title>
     <link rel="stylesheet" href="./styles/fitness.css">
+    <link rel="stylesheet" href="./styles/responcive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header class="inter-font">
-        <nav class="nav-bar">
+        <nav class="nav-bar display-flex">
             <h2 class="nav-logo">Fitness</h2>
-            <ul>
-                <li><a href="#"><button class="primary-btn">Home</button></a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">About</a></li>
+            <ul class="display-flex nav-items">
+                <li><a class="nav-item href="#"><button class="primary-btn">Home</button></a></li>
+                <li><a class="nav-item href="#">Service</a></li>
+                <li><a class="nav-item href="#">Contact</a></li>
+                <li><a class="nav-item href="#">About</a></li>
             </ul>
+            <ul class="hamburger-menu"><a class="hamburger-menu" href="#"><i class="fas fa-bars"></i></a></ul>
         </nav>
+        <section class="hero display-flex">
+            <div class="hero-left-container">
+                <h1 class="hero-title">Get body in<br><span class="miama-font">shape</span> & stay<br>healthy</h1>
+                <p class="primary-info">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
+                <div class="hero-buttons display-flex"><button class="primary-btn">Join Club Now!</button>
+                    <button class="primary-btn hero-btn-2">Download App</button></div>
+            </div>
+            <div class="hero-right-container">
+                <img src="./images/Images 2.png" alt="" class="hero-image">
+                <div class="hero-info-float">
+                    <h2 class="hero-float-title-one">500+</h2>
+                    <p class="primary-info">Free Workout Videos</p>
+                </div>
+                <div class="hero-info-float"></div>
+            </div>
+        </section>
     </header>
     <main></main>
     <footer></footer>

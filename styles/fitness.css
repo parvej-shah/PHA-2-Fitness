@@ -2,24 +2,30 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
 }
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @font-face {
-    font-family: "miama",sans-serif;
-    src: url(../styles/Miama.otf);
+    font-family: "Miama";
+    src: url(../styles/Miama.woff) format('woff');
+    src: url(../styles/Miama.woff2) format('woff2');
+    src: url(../styles/Miama.otf) format('otf');
+    src: url(../styles/Miama.ttf) format('truetype');
 }
 
 /* Shared Styles */
 .inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: normal;
     font-style: normal;
-    font-variation-settings:
-      "slnt" 0;
   }
-  .miama-font {
-    font-family: "miama", sans-serif; 
+.miama-font {
+    font-family: "Miama";
+    font-weight: 300;
+    font-style: italic;
+    font-size: 8rem;
 }
 .text-white{
     color: #ffffff;
@@ -32,6 +38,7 @@
     line-height: 1.5rem;
     word-spacing: 0.3px;
     color: rgba(255, 255, 255, 0.5);
+    margin-top: 24px;
 }
 .section-title{
     font-size: 3rem;
@@ -46,4 +53,85 @@
     font-weight: 600;
     color: #ffffff;
     border:none;
+    cursor: pointer;
+}
+.display-flex{
+    display: flex;
+}
+
+.nav-bar,
+.hero{
+    max-width: 1440px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Nav-bar styels */
+header{
+    background: linear-gradient(to top, #111111,#777777);
+    padding-top: 50px;
+}
+.nav-bar{
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-items{
+    align-items: center;
+    gap: 47px;
+    border-radius: 39px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 4px 16px 4px 4px;
+}
+.nav-logo{
+    color: #e6533c;
+    font-size: 2.25rem;
+    font-weight: 900;
+}
+.nav-item,
+.hamburger-menu{
+    color: #ffffff;
+}
+.nav-item .primary-btn{
+    padding: 8px 20px;
+}
+.hamburger-menu{
+    display: none;
+    font-size: 1.5rem;
+}
+
+/* Hero section  */
+.hero{
+    padding: 32px 0 78px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 170px;
+}
+.hero-title{
+    font-size: 4.875rem;
+    font-weight: 900;
+    line-height: 100%;
+    color: #ffffff;
+}
+.hero-left-container .primary-info{
+    font-size: 1rem;
+    word-spacing: 0.5px;
+    line-height: 1.5rem;
+}
+.hero-right-container{
+    max-width: 350px;
+    height: 580px;
+    flex-shrink: 0;
+}
+.hero-image{
+    width: 100%;
+    height: 100%;
+}
+.hero-left-container .hero-buttons{
+    margin-top: 24px;
+    gap: 16px;
+    align-items: center;
+}
+.hero-btn-2{
+    border: 1px solid #ffffff;
+    background-color: rgba(0, 0, 0, 0);
 }

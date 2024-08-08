@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Miama';
+    src: url('Miama.woff2') format('woff2'),
+        url('Miama.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
