@@ -234,10 +234,12 @@ header {
   display: grid;
   grid-template-columns: repeat(4,1fr);
   text-align: center;
-  margin-top: 58px;
   gap: 40px;
-  width: 200px;
+  
   margin: 58px auto 0;
+}
+.habit-section-card{
+  width: 200px;
 }
 .habit-section-img{
   width: 180px;
@@ -250,4 +252,30 @@ header {
   font-size: 1.125rem;
   color: #ffffff;
   font-weight: 600;
+}
+/* Extra Mile Section */
+.extra-mile-content{
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  align-items: start;
+}
+.extra-mile-content .primary-btn{
+  width: 50%;
+}
+.extra-mile-section{
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 45px;
+  border-radius: 18px;
+  background-color: #222222;
+  margin-bottom: 100px;
+}
+.extra-mile-img{
+  width: 366px;
+  height: 312px;
+  background-position: center;
+  object-fit: cover;
+  border-radius: 18px;
 }
