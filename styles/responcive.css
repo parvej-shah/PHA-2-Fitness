@@ -3,7 +3,7 @@
 
 @media screen and (max-width: 576px) {
   .nav-bar,
-  .hero {
+  .hero ,main{
     width: 95%;
     margin: 0 auto;
   }
@@ -45,4 +45,14 @@
     bottom: 245px;
   right: 175px;
 }
+/* habit section */
+.habit-section-cards{
+    grid-template-columns: repeat(1,1fr);
+}
+.section-title{
+    font-size: 2rem;
+}
+.habit-section{
+    margin: 0 0 60px;
+  }
 }
