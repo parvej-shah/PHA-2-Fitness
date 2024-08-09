@@ -29,6 +29,7 @@ body {
   font-weight: 300;
   font-style: italic;
   font-size: 8rem;
+  line-height: 50%;
 }
 .text-white {
   color: #ffffff;
@@ -75,7 +76,7 @@ body {
 
 /* Nav-bar styels */
 header {
-  background: linear-gradient(to bottom, #77777700, #111111);
+  background: linear-gradient(to top, #77777700, #111111);
   padding-top: 50px;
 }
 .nav-bar {
@@ -107,6 +108,9 @@ header {
 }
 
 /* Hero section  */
+.hero-btn-1::before {
+  content: "Join Club Now!";
+}
 .hero {
   padding: 32px 0 0px;
   align-items: center;
@@ -218,4 +222,5 @@ header {
   word-spacing: 0.5px;
   color: rgba(239, 237, 232, 0.65);
   margin-top: 8px;
+  
 }

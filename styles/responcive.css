@@ -1,12 +1,48 @@
-@media screen and (min-width:577px) and (max-width:992px){
-    
+@media screen and (min-width: 577px) and (max-width: 992px) {
 }
 
-@media screen and (max-width:576px){
-    .nav-items{
-        display: none;
-    }
-    .hamburger-menu{
-        display: block;
-    }
+@media screen and (max-width: 576px) {
+  .nav-bar,
+  .hero {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .hero {
+    flex-direction: column;
+  }
+  .nav-items {
+    display: none;
+  }
+  .hamburger-menu {
+    display: block;
+  }
+  /* Hero section */
+  .hero{
+    gap: 50px;
+  }
+  .hero-title {
+    font-size: 2.25rem;
+  }
+  .miama-font {
+    font-size: 4.5rem;
+  }
+
+  .hero-btn-1::before {
+    content: "Join Now!";
+  }
+  .hero-buttons{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .hero-buttons .primary-btn{
+    padding: 16px 0;
+  }
+  .hero-info-float-top,.hero-info-content{
+    left: 188px;
+    top: 48px;
+}
+.hero-info-float-bottom,.hero-float-content-bottom {
+    bottom: 245px;
+  right: 175px;
+}
 }
