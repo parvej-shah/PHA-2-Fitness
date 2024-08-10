@@ -74,4 +74,34 @@
     background-image: url("../images/run2.jpg");
     background-size: cover;
   }
+  .training-img-6,.training-img-3{
+    display: none;
+  }
+  .training-img-1{
+    grid-column: 1/7 span;
+    background-size: contain;
+    background-size: 100% 100%;
+  }
+  .training-img-2{
+    grid-column: 7/13;
+    background-size: auto;
+    background: linear-gradient(rgba(255, 0, 0, 0.3),rgba(255, 0, 0, 0.3)) ,url('../images/exercise22.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .training-img-4{
+    grid-column: 1/6 span;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) ,url('../images/exercise42.png');
+    /* background-size: cover; */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .training-img-5{
+    grid-column: 7/13 span;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .training-section-title-box{
+    max-width: 381px;
+  }
 }

@@ -279,3 +279,80 @@ header {
   background-size: cover;
   border-radius: 18px;
 }
+/* Trainings Section */
+.trainings{
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: repeat(12,1fr);
+  margin-bottom: 100px;
+}
+.trainings .primary-info{
+  color: #ffffff;
+}
+
+.training-img-1{
+  grid-column: 1/4 span;
+  grid-row: 1/6 span;
+  height: 200px;
+  background: linear-gradient(rgba(6, 255, 210, 0.5),rgba(6, 255, 210, 0.5)) ,url('../images/exercise1.jpg');
+  background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 25px;
+  align-items: flex-end;
+}
+.training-img-2{
+  grid-column: 4/9 span;
+  grid-row: 1/6 span;
+  height: 200px;
+  background: linear-gradient(rgba(255, 0, 0, 0.3),rgba(255, 0, 0, 0.3)) ,url('../images/exercise21.png');
+  background-size: contain;
+  background-size: 80% 100%;
+  background-repeat: no-repeat;
+  padding: 25px;
+  align-items: flex-start;
+}
+.training-img-3{
+  grid-column: 10/13 span;
+  grid-row: 1/6 span;
+  height: 200px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) ,url('../images/exercise3.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 25px;
+  align-items: flex-end;
+}
+.training-img-4{
+  grid-column: 1/6 span;
+  grid-row: 7/13 span;
+  height: 200px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) ,url('../images/exercise41.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 25px;
+  align-items: flex-end;
+}
+.training-img-5{
+  grid-column: 6/9 span;
+  grid-row: 7/13 span;
+  background: linear-gradient(rgba(66, 255, 0, 0.3),rgba(66, 255, 0, 0.3)) ,url('../images/exercise51.jpg');
+  background-size: contain;
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  padding: 25px;
+  align-items: flex-end;
+}
+.training-img-6{
+  grid-column: 9/13 span;
+  grid-row: 7/13 span;
+  /* width: 100%; */
+  background: linear-gradient(rgba(0, 71, 255, 0.3),rgba(0, 71, 255, 0.3)) ,url('../images/exercise61.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 25px;
+  align-items: flex-end;
+}
+.training-section-title-box{
+  max-width: 641px;
+  margin-bottom: 58px;
+}
