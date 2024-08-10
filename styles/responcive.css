@@ -7,7 +7,8 @@
     width: 95%;
     margin: 0 auto;
   }
-  .hero {
+  .hero, 
+  .extra-mile-section{
     flex-direction: column;
   }
   .nav-items {
@@ -54,5 +55,23 @@
 }
 .habit-section{
     margin: 0 0 60px;
+  }
+  .extra-mile-section{
+    gap: 30px;
+    padding: 32px;
+  }
+  .extra-mile-content .primary-btn{
+    width: 100%;
+    margin-top: 10px;
+  }
+  .extra-mile-content{
+    gap: 14px;
+    max-width: 287px;
+  }
+  .extra-mile-img{
+    width: 287px;
+    height: 170px;
+    background-image: url("../images/run2.jpg");
+    background-size: cover;
   }
 }
