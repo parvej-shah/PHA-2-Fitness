@@ -69,7 +69,12 @@ body {
 
 .nav-bar,
 .hero,
-main {
+.habit-section,
+.extra-mile-section,
+.trainings-section,
+.calculator-container,
+.cal-sec-title-box
+ {
   max-width: 1440px;
   width: 80%;
   margin: 0 auto;
@@ -228,7 +233,7 @@ header {
 
 /* Habit section */
 .habit-section {
-  margin: 100px 0;
+  margin: 100px auto;
 }
 .habit-section-cards {
   display: grid;
@@ -284,7 +289,7 @@ header {
   display: grid;
   grid-template-columns: repeat(12,1fr);
   grid-template-rows: repeat(12,1fr);
-  margin-bottom: 100px;
+  margin-bottom: 88px;
 }
 .trainings .primary-info{
   color: #ffffff;
@@ -355,4 +360,82 @@ header {
 .training-section-title-box{
   max-width: 641px;
   margin-bottom: 58px;
+}
+
+/* Calulator section*/
+.calculator-section{
+  background-color: #222222;
+  padding-bottom: 52px;
+  margin-bottom: 88px;
+}
+.calculator-container {
+  justify-content: space-between;
+}
+.calculator-chart{
+  max-width: 310px;
+  margin-top: 52px;
+}
+table caption{
+  margin-bottom: 52px;
+}
+.cal-chart-title{
+  font-size: 1.75rem;
+  text-align: left;
+}
+table,th,tr,td{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-collapse: collapse;
+}
+th,tr,td{
+  height: 44px;
+  width: 155px;
+}
+th{
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+}
+td{
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+.calculator-form{
+  max-width: 577px;
+  margin-top: 50px;
+}
+form{
+  margin-top: 34px;
+}
+label{
+  display: flex;
+  width: 100%;
+  gap: 12px;
+}
+label>*{
+  width: 100%;
+  margin-bottom: 12px;
+}
+input,select{
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+option{
+  background-color: #000000;
+}
+select{
+  /* appearance: none; */
+  color: rgba(255, 255, 255, 0.295);
+}
+.cal-sec-title-box{
+  max-width: 650px;
+  margin-bottom: 88px;
+}
+.calculator-form .primary-btn{
+  width: 224px;
+  margin-top: 22px;
 }

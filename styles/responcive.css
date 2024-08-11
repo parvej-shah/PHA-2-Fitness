@@ -3,12 +3,21 @@
 
 @media screen and (max-width: 576px) {
   .nav-bar,
-  .hero ,main{
+  .hero,
+  .habit-section,
+  .extra-mile-section,
+  .trainings-section,
+  .calculator-container,
+  .cal-sec-title-box
+  {
     width: 95%;
     margin: 0 auto;
   }
   .hero, 
-  .extra-mile-section{
+  .extra-mile-section,
+.calculator-container
+
+  {
     flex-direction: column;
   }
   .nav-items {
@@ -74,6 +83,9 @@
     background-image: url("../images/run2.jpg");
     background-size: cover;
   }
+  .trainings{
+    margin-bottom: 30px;
+  }
   .training-img-6,.training-img-3{
     display: none;
   }
@@ -103,5 +115,22 @@
   }
   .training-section-title-box{
     max-width: 381px;
+    margin-top: 58px;
   }
+  /* calculator section */
+.cal-sec-title-box{
+max-width: auto;
+/* margin-bottom: 32px; */
+margin: 0 auto 32px;
+}
+.calculator-form,
+.calculator-chart{
+  max-width: auto;
+}
+.cal-chart-title{
+  font-size: 1rem;
+}
+.calculator-section{
+  margin-bottom: 66px;
+}
 }

@@ -113,6 +113,72 @@
                 </div>
             </div>
         </section>
+        <div class="cal-sec-title-box">
+            <h2 class="section-title">BMI Calculator</h2>
+            <p class="primary-info">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+        </div>
+        <section class="calculator-section">
+            
+            <div class="calculator-container display-flex">
+                <div class="calculator-chart">
+                    <table class="cal-chart text-center">
+                        <caption class="cal-chart-title section-title">BMI Calculator Chart</caption>
+                        <thead>
+                            <tr>
+                              <th>BMI</th>
+                              <th>Weight Status</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Below 18.5</td>
+                              <td>Underweight</td>
+                            </tr>
+                            <tr>
+                                <td>18.5 - 24.9</td>
+                                <td>Healthy</td>
+                              </tr>
+                              <tr>
+                                <td>25.0 - 29.9</td>
+                                <td>Overweight</td>
+                              </tr>
+                              <tr>
+                                <td>30.0 - and Above</td>
+                                <td>Obese</td>
+                              </tr>
+                          </tbody>
+                    </table>
+                </div>
+                <div class="calculator-form">
+                    <div class="cal-form-title-box">
+                        <h2 class="cal-chart-title section-title">Calculate Your BMI</h2>
+                        <p class="primary-info">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+                    </div>
+                    <form>
+                        <label for="height%weight">
+                            <input type="text" name="height" id="height" placeholder="Height/cm">
+                            <input type="text" name="weight" id="weight" placeholder="Weight/kg">
+                        </label>
+                        <label for="age&sex">
+                            <input type="text" name="age" id="age" placeholder="Age">
+                            <select name="sex" id="sex" placeholder="Sex">
+                                <option selected disabled>Sex</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                        </label>
+                        <label for="factor">
+                            <select name="factor" id="factor">
+                                <option selected disabled>Select an activity factor</option>
+                                <option value="A">A</option>
+                                <option value="B">B</option>
+                            </select>
+                        </label>
+                    </form>
+                    <button class="primary-btn">Calculate</button>
+                </div>
+            </div>
+        </section>
     </main>
     <footer></footer>
 </body>
