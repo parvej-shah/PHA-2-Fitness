@@ -73,7 +73,10 @@ body {
 .extra-mile-section,
 .trainings-section,
 .calculator-container,
-.cal-sec-title-box
+.cal-sec-title-box,
+.team-seciton,
+.footer-section,
+.footer-rule
  {
   max-width: 1440px;
   width: 80%;
@@ -438,4 +441,94 @@ select{
 .calculator-form .primary-btn{
   width: 224px;
   margin-top: 22px;
+}
+/* team Section */
+.team-members{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding: 20px;
+  gap: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 18px;
+  margin-top: 58px;
+}
+.member-roll{
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+.member-name{
+  font-size: 1.25rem;
+  color: #ffffff;
+  font-weight: 900;
+}
+.team-mem-box{
+  display: flex;
+  align-items: end;
+  height: 272px;
+  border-radius: 18px;
+  padding: 16px 18px;
+  background-size: cover;
+  background-position: center center;
+}
+.team-mem-img-1{
+  background-image: url(../images/trainer1.png);
+}
+.team-mem-img-1{
+  background-image: url(../images/trainer1.png);
+}
+.team-mem-img-2{
+  background-image: url(../images/trainer2.png);
+}
+.team-mem-img-3{
+  background-image: url(../images/trainer3.png);
+}
+.team-mem-img-3 .member-name{
+  content: "Darrel Steward";
+}
+.team-mem-img-4{
+  background-image: url(../images/trainer4.png);
+  background-size: 130% 100%;
+}
+.team-mem-img-5{
+  background-image: url(../images/trainer5.png);
+}
+.team-mem-img-6{
+  background-image: url(../images/trainer6.png);
+}
+.team-section-title-box{
+  max-width: 671px;
+  margin: 0 auto;
+}
+.team-seciton{
+  margin-bottom: 88px;
+}
+
+/* Footer section */
+.footer-section{
+  justify-content: space-between;
+}
+.footer-left{
+  max-width: 430px;
+}
+.footer-title{
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+.footer-list-item{
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.footer-left .nav-logo{
+font-size: 4.375rem;
+}
+footer{
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 66px 0 35px;
+}
+.footer-rule{
+  border: none;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 36px;
 }
