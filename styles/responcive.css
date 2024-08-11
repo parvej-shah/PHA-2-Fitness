@@ -11,7 +11,8 @@
   .cal-sec-title-box,
   .team-seciton,
   .footer-section,
-  .footer-rule {
+  .footer-rule,
+  .equipment-section{
     width: 95%;
     margin: 0 auto;
   }
@@ -161,5 +162,22 @@
   }
 .footer-rule{
   margin-bottom: 36px;
+}
+.equipment-section{
+  flex-direction: column;
+  gap: 36px;
+  margin-bottom: 66px;
+  margin-top: 66px;
+}
+.eqp-img-2{
+  bottom: 180px;
+  left: 110px;
+}
+.eqp-img{
+  width: 250px;
+  height: 350px;
+}
+.epq-sec-right .section-title{
+  font-size: 2rem;
 }
 }
