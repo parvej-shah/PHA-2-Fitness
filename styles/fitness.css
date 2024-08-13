@@ -248,7 +248,7 @@ header {
   margin: 58px auto 0;
 }
 .habit-section-card {
-  width: 200px;
+  width: 220px;
 }
 .habit-section-img {
   width: 180px;
@@ -559,10 +559,11 @@ footer{
 .epq-sec-right{
   max-width:450px;
 }
-.epq-sec-right .section-title{
-  font-size: 3.5rem;
-}
+
 .epq-sec-right .primary-btn{
   width: 224px;
   margin-top: 22px;
+}
+.section-title-box {
+  margin: 0 auto;
 }

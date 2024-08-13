@@ -1,6 +1,3 @@
-@media screen and (min-width: 577px) and (max-width: 992px) {
-}
-
 @media screen and (max-width: 576px) {
   .nav-bar,
   .hero,
@@ -52,12 +49,34 @@
   .hero-info-content {
     left: 188px;
     top: 48px;
+    height: 85px;
+  width: 160px;
+
   }
   .hero-info-float-bottom,
   .hero-float-content-bottom {
     bottom: 245px;
     right: 175px;
+    height: 85px;
+  width: 170px;
+
   }
+.hero-float-title-one {
+  font-size: 2rem;
+}
+.hero-float-info-one {
+  font-size: 0.6rem;
+  margin-top: 2px;
+}
+.hero-float-title-two {
+  font-size: 1.3rem;
+}
+.hero-float-info-two {
+  font-size: 0.8rem;
+  line-height: normal;
+  margin-top: 8px;
+
+}
   /* habit section */
   .habit-section-cards {
     grid-template-columns: repeat(1, 1fr);
@@ -66,7 +85,7 @@
     font-size: 2rem;
   }
   .habit-section {
-    margin: 0 0 60px;
+    margin: 0 auto 60px;
   }
   .extra-mile-section {
     gap: 30px;
@@ -134,7 +153,7 @@
     max-width: auto;
   }
   .cal-chart-title {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .calculator-section {
     margin-bottom: 66px;
@@ -177,7 +196,101 @@
   width: 250px;
   height: 350px;
 }
-.epq-sec-right .section-title{
-  font-size: 2rem;
+
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .nav-bar,
+  .hero,
+  .habit-section,
+  .extra-mile-section,
+  .trainings-section,
+  .calculator-container,
+  .cal-sec-title-box,
+  .team-seciton,
+  .footer-section,
+  .footer-rule,
+  .equipment-section{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .hero,
+  .calculator-container {
+    flex-direction: column;
+  }
+  .hero {
+    gap: 50px;
+    margin-top: 60px;
+  }
+  .hero .primary-info{
+    max-width: 600px;
+  }
+.habit-section-cards {
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 66px;
+}
+.section-title-box {
+  max-width: 510px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.extra-mile-content {
+  max-width: 263px;
+gap: 5px;
+}
+.extra-mile-content .primary-btn{
+  margin-top: 30px;
+  width: 80%;
+}
+.section-title{
+  font-size: 2.25rem;
+}
+.extra-mile-img {
+  width: 256px;
+  height: 320px;
+  background-position: center center;
+}
+
+.training-section-title-box{
+  margin-top: 66px;
+}
+.cal-sec-title-box{
+  margin: 66px auto;
+}
+.cal-sec-title-box .primary-info{
+  max-width: 595px;
+}
+.cal-chart-title{
+  font-size: 1.75rem;
+}
+.calculator-form{
+  max-width: 100%;
+}
+.team-mem-img-4{
+  background-size: 150% 100%;
+}
+.team-members{
+  margin-bottom: 66px;
+}
+.footer-section{
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  row-gap: 100px;
+  column-gap: 152px;
+}
+.footer-left{
+  max-width: 100%;
+  margin-right: 40%;
+}
+.footer-rule{
+  margin: 71px auto 41px;
+}
+.equipment-section{
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 30px;
+}
+.eqp-img{
+  width: 450px;
+  height: 570px;
 }
 }
